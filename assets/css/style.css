@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/*this is the page header*/
+.header {
+    padding: 20px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    color: #ffffff;vertical-align: middle;
+}
+
+/*this is the header text with my name*/
+.header h1 {
+    
+    display: inline-block;
+    font-size: 46px;
+    
+}
+
+
+
+/*this is the header menu padding and margin*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 100px;
+    float: right;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+        vertical-align: middle;
+}
+
+/*this is the header menu text margin and list properties*/
+.header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: middle;
+    
+}
+
+/*this is the header menu text color*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*this is the main page background image parameters*/
+.main-background {
+    height:850px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Maih\ Pic\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*this is the paragraph text font size*/
+p {
+    font-size: 16px;
+}
+
+/*this is the float and margin Left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*this is the float and margin Right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*this is the content parameter for the three sections below the main image*/
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*this is the content for the first section below the main image*/
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 350px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    border-color: darkgrey;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+/*this is the background for the first section my work cams web platform below the main image*/
+.my-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 450px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 0%, 0%);
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/*this is the background for the second section my work 2 cams ios app below the main image*/
+.my-work-2 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(195, 6%, 86%);
+    color: #000000;
+}
+.my-work-3 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 450px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    color: #000000;
+}
+/*https://vimeo.com/678421283  vimeo link to CAMS*/
+
+.my-work-4 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 450px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
+}
+
+.my-work-5 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 400px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(195, 6%, 86%);
+    color: #000000;
+}
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(207, 100%, 91%);
+    color: #000000;
+}
+/*this is the image parameter for the first section below the main image*/
+.about-me img {
+    max-height: 250px;
+}
+
+/*this is the image parameter for the second section below the main image*/
+.my-work img {
+    max-height: 300px;
+        transition: transform .5s;
+        height:300px;
+        margin:0 auto;
+}
+    img:hover{
+    transform:scale(1.15);
+    
+}
+
+/*this is the image parameter for the third section below the main image*/
+.my-work-2 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+
+img:hover{
+    transform:scale(1.15);
+    
+}
+
+
+/*this is the image parameter for the third section below the main image*/
+.my-work-3 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+
+img:hover{
+    transform:scale(1.15);
+    
+}
+
+
+/*this is the image parameter for the fourth section below the main image*/
+.my-work-4 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+/*this is the image parameter for the fourth section below the main image*/
+.my-work-5 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+/*this is the image parameter for the fourth section below the main image*/
+.contact-me img {
+    max-height: 50px;
+    transition: transform .5s;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+img:hover{
+    transform:scale(1.15);
+}
+
+.my-work-5 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+
+img:hover{
+    transform:scale(1.15);
+    
+}
+/*this is the header parameter for the first section below the main image*/
+.my-work h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/*this is the header parameter for the second section below the main image*/
+.my-work-2 h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+/*this is the header parameter for the third section below the main image*/
+.my-work-3 h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/*this is the header parameter for the fourth section below the main image*/
+.my-work-4 h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+/*this is the header parameter for the fourth section below the main image*/
+.my-work-5 h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+/*this is the header parameter for the Contact Me section below the main image*/
+.contact-me h2 {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+/*this is the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Bahnschrift', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+/*this is the footer h2 text*/
+.footer h2 {
+    font-size: 30px;
+}
+
