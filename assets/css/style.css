@@ -281,8 +281,13 @@ img:hover{
     margin-bottom: 20px;
     font-size: 40px;
 }
-/*this is the header parameter for the fourth section below the main image*/
+/*this is the header parameter for the fifth section below the main image*/
 .my-work-5 h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+/*this is the header parameter for the sixth section below the main image*/
+.my-work-6 h2 {
     margin-bottom: 20px;
     font-size: 40px;
 }
