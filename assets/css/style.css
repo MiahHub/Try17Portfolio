@@ -222,6 +222,18 @@ img:hover{
     height:300px;
     margin:0 auto;
 }
+/* this is the image param for the boat rental image*/
+.my-work-6 img {
+    max-height: 300px;
+    transition: transform .5s;
+    height:300px;
+    margin:0 auto;
+}
+
+img:hover{
+    transform:scale(1.15);
+    
+}
 /*this is the image parameter for the fourth section below the main image*/
 .contact-me img {
     max-height: 50px;
